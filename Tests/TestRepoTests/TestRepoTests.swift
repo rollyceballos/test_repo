@@ -8,5 +8,6 @@ final class TestRepoTests: XCTestCase {
         let testRepo = TestRepo()
         let result = testRepo.greet(name: "World")
         XCTAssertEqual(result, "Hello, World!")
+        // XCTAssertFail("Forced failure")
     }
 }
